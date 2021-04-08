@@ -1,0 +1,137 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    padding: 20px;
+}
+
+#nav-bar {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+}
+
+#intro-image {
+    display: block;
+    margin: auto;
+}
+
+#first-h {
+    width: 30vw;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+#first-p {
+    width: 25vw;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+#start {
+    display: block;
+    color: white;
+    border: 0;
+    outline: 0;
+    width: 10vw;
+    height: 5vh;
+    margin: auto;
+    border-radius: 20px;
+    background-color: hsl(198, 60%, 50%);
+}
+
+#first-container {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    padding: 100px;
+    display: grid;
+    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+
+#second {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+#second-p {
+    width: 30vw;
+    margin: auto;
+}
+#second-h {
+    width: 20vw;
+}
+#third {
+    display: flex;
+    background: url('./images/bg-quotes.png');
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 300px;
+}
+
+#satish,#bruce,#iva {
+    text-align: left;
+    background-color: hsl(219, 30%, 18%);
+    width: 20vw;
+    height: 15vh;
+    margin: auto;
+    padding: 50px;
+}
+.profile {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 20px 20px 0 0;
+}
+#satish-profile,#bruce-profile,#iva-profile {
+    display: flex;
+    width: 300px;
+}
+
+.profile-bottom {
+    margin: 20px 0 0 0;
+}
+
+#fourth {
+    text-align: center;
+    width: 70vw;
+    height: 30vh;
+    margin: auto;
+    padding: 20px;
+    background-color: hsl(217, 28%, 15%);
+}
+#fourth-header {
+    font-size: 50px;
+}
+
+#fourth-main {
+    width: 50vw;
+    margin: auto;
+}
+
+#fourth-button{
+    font-size: 20px;
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+    border: 0;
+    outline: 0;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 40px;
+    margin: 30px;
+}
+#email {
+    padding-left: 30px;
+    border: 0;
+    outline: 0;
+    width: 30vw;
+    height: 10vh;
+    border-radius: 40px;
+}
