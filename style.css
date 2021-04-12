@@ -135,6 +135,69 @@ body {
     height: 10vh;
     border-radius: 40px;
 }
+#fifth {
+    display: flex;
+    position: relative;
+    top: -150px;
+    height: 50vh;
+    background: hsl(216, 53%, 9%);
+    z-index: -1;
+}
+
+#fifth-top {
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+#lorem,
+#contact,
+#about,
+#contact-us,
+#social {
+    flex-direction: column;
+    position: relative;
+    top: 250px;
+    margin: 50px;
+    width: 15vw;
+}
+
+#lorem {
+    width: 30vw;
+}
+
+#lorem-image {
+    position: relative;
+    top: 300px;
+    left: 20px;
+}
+
+.attribution {
+    display: none;
+}
+
+#phone-image,
+#email-image {
+    position: relative;
+    right: 10px;
+}
+
+#contact {
+    line-height: 50px;
+}
+
+#about,
+#contact-us {
+    line-height: 30px;
+}
+
+#lorem {
+    line-height: 25px;
+}
+
+#social-image {
+    width: 100px;
+}
 @media (max-width:1000px) {
     body {
         max-width: 100%;
