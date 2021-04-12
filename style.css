@@ -135,3 +135,143 @@ body {
     height: 10vh;
     border-radius: 40px;
 }
+@media (max-width:1000px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #first-container {
+        text-align: center;
+        margin: auto;
+        width: 40vw;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 300px);
+        row-gap: 100px;
+    }
+
+    #intro-image {
+        width: 90vw;
+    }
+
+    #first-h {
+        width: 90vw;
+        text-align: left;
+        margin: auto;
+        padding: 30px;
+    }
+
+    #first-p {
+        width: 90vw;
+        text-align: left;
+        margin: auto;
+    }
+
+    #start {
+        display: block;
+        color: white;
+        border: 0;
+        outline: 0;
+        width: 50vw;
+        height: 5vh;
+        margin: auto;
+        border-radius: 20px;
+        background-color: hsl(198, 60%, 50%);
+    }
+
+    #second {
+        display: block;
+    }
+
+    #second>img {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    #second-p,
+    #second-h {
+        width: 80vw;
+    }
+
+    #third {
+        display: flex;
+        flex-direction: column;
+        background: url('./images/bg-quotes.png');
+        background-repeat: no-repeat;
+        padding-top: 40px;
+        padding-bottom: 300px;
+    }
+
+    #satish,
+    #bruce,
+    #iva {
+        text-align: left;
+        background-color: hsl(219, 30%, 18%);
+        width: 70vw;
+        height: 15vh;
+        margin: 10px;
+        padding: 50px;
+    }
+
+    #fourth {
+        text-align: center;
+        width: 70vw;
+        height: 50vh;
+        margin: auto;
+        padding: 20px;
+        background-color: hsl(217, 28%, 15%);
+    }
+
+    #fourth-header {
+        font-size: 50px;
+    }
+
+    #fourth-main {
+        width: 60vw;
+        margin: auto;
+    }
+
+    #fourth-button {
+        display: block;
+        font-size: 20px;
+        color: white;
+        background-color: hsl(198, 60%, 50%);
+        border: 0;
+        outline: 0;
+        width: 60vw;
+        height: 10vh;
+        border-radius: 40px;
+        margin: 30px;
+    }
+
+    #fourth>input {
+        margin-top: 10px;
+        width: 50vw;
+    }
+
+    #fifth {
+        display: block;
+        position: relative;
+        height: 110vh;
+        background: hsl(216, 53%, 9%);
+        z-index: -1;
+    }
+
+    #lorem,
+    #contact,
+    #about,
+    #contact-us,
+    #social {
+        display: block;
+        position: relative;
+        top: 250px;
+        margin: 50px;
+        width: 70vw;
+    }
+
+    #social {
+        text-align: center;
+        margin: auto;
+    }
+}
