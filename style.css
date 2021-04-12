@@ -12,6 +12,10 @@ body {
     padding: 20px;
 }
 
+#main-logo {
+    margin-right: auto;
+}
+
 #intro-image {
     display: block;
     margin: auto;
